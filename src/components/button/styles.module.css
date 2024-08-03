@@ -20,3 +20,20 @@
     width: 20px;
     margin-right: 4px;
 }
+
+.error {
+    background-color: var(--error);
+}
+
+.error:hover {
+    background-color: var(--error-hover);
+}
+
+.disabled {
+    background-color: var(--light);
+    cursor: not-allowed;
+}
+
+.disabled:hover {
+    background-color: var(--light);
+}

@@ -54,3 +54,44 @@
 .input svg:hover {
     fill: var(--info);
 }
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    max-width: 364px;
+    max-height: 364px;
+    height: 100%;
+    width: 100%;
+
+    border: 3px solid var(--white);
+
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 999px;
+}
+
+.timer strong {
+    color: var(--white);
+    position: relative;
+    bottom: 10px;
+}
+
+.timer span {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.button-group {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
